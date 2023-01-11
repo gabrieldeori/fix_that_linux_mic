@@ -6,10 +6,10 @@ Primeiro baixe o alsa-tools-gui:
 sudo apt-get update
 sudo apt-get install alsa-tools-gui
 ```
-
+Você precisa ter privilégios de administrador para realizar a próxima ação.
 Depois edite o arquivo de configuração do pulse da forma que conseguir, eu vou usar o vscode pra isso:
 ```sh
-code --no-sandbox /etc/pulse/client.conf
+sudo code --no-sandbox /etc/pulse/client.conf
 ```
 Adicione no arquivo as configurações abaixo:
 ```txt
